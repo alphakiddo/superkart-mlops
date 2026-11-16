@@ -1,0 +1,35 @@
+{
+  "best_model": "Random Forest",
+  "results": {
+    "Random Forest": {
+      "best_params": {
+        "model__n_estimators": 200,
+        "model__min_samples_split": 10,
+        "model__min_samples_leaf": 2,
+        "model__max_features": null,
+        "model__max_depth": null
+      },
+      "train_rmse": 198.2550210055817,
+      "train_mae": 71.07073699921881,
+      "train_r2": 0.9653407074380242,
+      "test_rmse": 280.69004426256095,
+      "test_mae": 106.75406541501084,
+      "test_r2": 0.9309504641724542
+    },
+    "Gradient Boosting": {
+      "best_params": {
+        "model__subsample": 0.7,
+        "model__n_estimators": 300,
+        "model__min_samples_leaf": 2,
+        "model__max_depth": 4,
+        "model__learning_rate": 0.05
+      },
+      "train_rmse": 246.56654717584672,
+      "train_mae": 105.14375000176341,
+      "train_r2": 0.9463907648804823,
+      "test_rmse": 294.119129117338,
+      "test_mae": 126.92296075064864,
+      "test_r2": 0.9241853231530579
+    }
+  }
+}
